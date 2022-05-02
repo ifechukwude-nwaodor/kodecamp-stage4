@@ -118,7 +118,7 @@
 }
 
 .image-section{
-  background:url(image/hero image.png);
+  background:url("../image/hero_image.png");
   background-size:cover;
   background-position:center;
   min-height:90vh;
@@ -131,6 +131,7 @@
 
 .quick-service{
   margin-top:100px;
+  margin-right:50px;
   background-color:#ffffff;
   border-radius:45px;
   width:40%;
@@ -165,8 +166,9 @@
 }
 
 .rating{
+  display:flex;
   margin-top:350px;
-  margin-left:250px;
+  margin-left:350px;
   background-color:#ffffff;
   border-radius:45px;
   padding:20px;
@@ -180,8 +182,25 @@
   width:30%;
 }
 
+#star{
+  display:flex;
+  justify-content:space-between;
+}
+
+#star >div{
+  width:19%;
+}
 .rating #star{
   width:70%;
+}
+
+.fa-solid{
+  color:yellow;
+  width:100%;
+}
+
+div .fa-solid{
+  margin-top:10px;
 }
 
 /*quote section styling */
@@ -190,6 +209,10 @@
   padding:35px;
   background-color:gray;
   margin-top:30PX;
+}
+
+.quote-section{
+  height:100vh;
 }
 
 .quote-content{
@@ -214,33 +237,57 @@
   margin-bottom:10px;
 }
 
+.list-content h2 {
+  font-size:50px;
+  font-weight:400;
+}
+
+.list-section .list-img{
+  width:12%;
+}
+
+.list-section .list-writing{
+  width:70%;
+}
+
+.list-writing h4{
+  font-size:25px;
+}
+
+.list-writing p{
+  margin-top:10px;
+  font-size:20px;
+}
+
+.form-section h2 {
+  font-size:38px;
+  font-weight:400;
+}
+
 .list-img{
   margin-right:10px;
 }
 
-.list-section .paragraph{
-  border-left:2px dotted orange;
-  padding-left:10px;
-}
 
 #navigate {
-  margin-left:30px;
+  margin-left:70px;
 }
 
-.offer-link a, #navigate a{
+#navigate a{
   text-decoration:none;
   color:black;
+  font-size:16px;
 }
 .arrow {
   margin-left:5px;
-  align-items:center;
+  text-align:center;
 }
 
 
 .form-section input[type="text"]{
   width:100%;
   padding:10px;
-
+  margin-bottom:5px;
 }
 
 
@@ -251,12 +298,24 @@
 
 /*process section styling*/
 .process{
-  padding:35px;
-  margin-top:30px;
+  padding:45px;
+  height:100vh;
 }
 
-.process-content h1, .process-content p{
+.process-content h2, .process-content p{
   margin-bottom:20px;
+}
+
+.process-content h2{
+  font-size:58px;
+  font-weight:700;
+}
+
+.process-content p{
+  font-size:28px;
+}
+.process-content{
+  margin-top:60px;
 }
 
 .process-section {
@@ -264,24 +323,50 @@
   justify-content:space-between;
 }
 
-.process-section .process-content, .process-section .list-content{
+.process-section .process-content{
   width:45%;
+
 }
 
 .process-section img{
-  width:30px;
+  width:100%;
+  margin-bottom:10px;
 }
 
+.process-section .list-content{
+  width:45%;
+}
 
+.paragraph{
+  font-size:20px;
+  margin-top:10px;
+}
+
+#line{
+  width:2px;
+}
+
+.list-img{
+  text-align:center;
+}
+
+.process-section .list-writing h4{
+  margin-top:15px;
+}
 /*offer section styling*/
 .image-container{
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
+  margin-top:30px;
+}
+
+.offer-section{
+  height:100vh;
 }
 
 .image-container .offer-img {
-  width:23%;
+  width:24%;
   margin-bottom:10px;
   background-color:#fff;
   }
@@ -313,7 +398,18 @@
 
 .text{
   text-align:center;
-  margin-bottom:10px;
+  margin-bottom:20px;
+  margin-top:25px;
+}
+
+.text h5{
+  font-size:20px;
+  font-weight:300;
+}
+
+.text h2{
+  font-size:40;
+  font-weight:600;
 }
 
 .offer-link{
@@ -321,22 +417,20 @@
   justify-content:flex-end;
 }
 
-/*metrics section styling*/
-
-.contact-box{
-  width:30%;
-  margin-left:20%;
-  background-color:darkorange;
-  height:40vh;
+.offer-link a{
+  font-size:14px;
+  text-decoration:none;
+  color:black;
 }
+
+/*metrics section styling*/
 
 .contact-box h3{
   color:#fff;
-  font-size:16px;
+  font-size:30px;
   font-family:verdana sans-serif;
   text-align:center;
-  padding-top:20px;
-  padding-bottom:20px;
+  padding:40px 20px 20px 20px;
 }
 
 .contact-box a{
@@ -345,7 +439,7 @@
   background-color:black;
   padding:10px 30px;
   margin-top:20px;
-  margin-left:25px;
+  margin-left:105px;
 }
 
 .metrics{
@@ -359,17 +453,29 @@
 
 .metrics-container{
   display:flex;
+  height:60vh;
 }
 
 .metrics-container .car-section{
-  background-image:url(./image/car.jpg);
-  width:45%;
-  min-height:40vh;
+  background-image:url("../image/car.jpg");
+  background-position:left;
+  background-size:cover;
+  width:20%;
+  min-height:60vh;
 }
 
 .metrics-container .other-car-section{
-  background:url(image/repair.jpg);
-  width:55%;
+  background:url("../image/repair.jpg");
+  background-position:right;
+  background-size:cover;
+  width:40%;
+  height:60vh;
+}
+
+.metrics-container .contact-box{
+  background-color:orange;
+  width:40%;
+  height:60vh;
 }
 
 .metrics >div {
@@ -405,8 +511,14 @@
 .brand-section{
   padding:20px;
   margin-top:20px;
+  height:60vh;
 }
 
 .brand-image img {
   width:80%;
+}
+
+.text h4{
+  font-size:20px;
+  font-weight:bold;
 }
