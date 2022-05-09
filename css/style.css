@@ -60,7 +60,7 @@
   /*hero section styling*/
 
 .hero-section{
-  height:100vh;
+  min-height:100vh;
 }
 
 .hero-content{
@@ -212,7 +212,7 @@ div .fa-solid{
 }
 
 .quote-section{
-  height:100vh;
+  min-height:100vh;
 }
 
 .quote-content{
@@ -299,7 +299,7 @@ div .fa-solid{
 /*process section styling*/
 .process{
   padding:45px;
-  height:100vh;
+  min-height:100vh;
 }
 
 .process-content h2, .process-content p{
@@ -362,7 +362,7 @@ div .fa-solid{
 }
 
 .offer-section{
-  height:100vh;
+  min-height:100vh;
 }
 
 .image-container .offer-img {
@@ -453,7 +453,7 @@ div .fa-solid{
 
 .metrics-container{
   display:flex;
-  height:60vh;
+  min-height:60vh;
 }
 
 .metrics-container .car-section{
@@ -469,13 +469,13 @@ div .fa-solid{
   background-position:right;
   background-size:cover;
   width:40%;
-  height:60vh;
+  min-height:60vh;
 }
 
 .metrics-container .contact-box{
   background-color:orange;
   width:40%;
-  height:60vh;
+  min-height:60vh;
 }
 
 .metrics >div {
@@ -511,7 +511,7 @@ div .fa-solid{
 .brand-section{
   padding:20px;
   margin-top:20px;
-  height:60vh;
+  min-height:60vh;
 }
 
 .brand-image img {
@@ -521,4 +521,622 @@ div .fa-solid{
 .text h4{
   font-size:20px;
   font-weight:bold;
+}
+
+/*feedback section styling*/
+.feedback {
+  background-color:lightgray;
+  padding:20px;
+  min-height:70vh;
+}
+
+.feedback h2{
+  font-size:48px;
+  font-weight:300px;
+  margin-top:30px;
+  text-align:center;
+}
+
+.feedback-box{
+  display:flex;
+  justify-content:space-between;
+  margin-top:30px;
+}
+
+.response{
+  width:48%;
+  background-color:#fff;
+  padding:20px;
+}
+
+.identity{
+  display:flex;
+  justify-content:space-between;
+}
+
+.identity .identity_img{
+  width:10%;
+}
+
+.identity .identity_img img{
+  width:100%;
+}
+
+.identity .identity_text{
+  width:85%;
+}
+
+.identity .identity_text h5{
+  font-size:18px;
+}
+
+.identity .identity_text p{
+  font-size:12px;
+  color:dimgrey;
+}
+
+.response p{
+  font-size:16px;
+  font-weight:100px;
+}
+
+.under-feedback{
+  display: flex;
+  justify-content:space-between;
+}
+
+.line-box{
+  display:flex;
+  justify-content:space-between;
+  width: 15%;
+  margin-top: 10px;
+  margin-left:430px;
+}
+
+.line-box .lines {
+  width:24%;
+}
+
+.line-box .lines img{
+  width: 100%;
+}
+
+#orange{
+  color:orange;
+}
+
+
+.arrow-box{
+  display:flex;
+  justify-content:space-between;
+  width:10%;
+  margin-top: 10px;
+}
+
+.arrow-box .arrows{
+  width:45%;
+}
+
+.arrow-box .arrows img{
+  width:100%;
+  border-radius:50%;
+  text-align:center;
+}
+
+#black{
+  background-color:#fff;
+  padding:15px;
+}
+
+#white{
+  background-color:black;
+  padding:10px;
+}
+
+/*question section styling*/
+
+.question-section{
+  background-color:gray;
+  padding:30px;
+  min-height: 100vh;
+}
+
+.question-container{
+  width:60%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.questions{
+  margin-bottom:8px;
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-section h2{
+  font-size:48px ;
+  font-weight: 300px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.questions h5{
+  font-size: 20px;
+  font-weight:100px;
+}
+
+.questions p{
+  font-size:18px;
+  color:gray;
+  padding-top: 15px;
+}
+
+.questions .question-text{
+  width: 75%;
+}
+
+.questions .sign{
+  width:5%;
+  background-color:orange;
+  height:2%;
+}
+
+.questions .sign p{
+  font-size: 14px;
+  color: #fff;
+  margin-bottom:5px;
+  text-align:center;
+}
+
+/*contact section styling*/
+
+.contact-section{
+  background-color:black;
+  padding:30px;
+  min-height:60vh;
+}
+
+.contact{
+  display: flex;
+  justify-content:space-between;
+}
+
+.contact .socials, .contact .address{
+  width: 45%;
+  margin-top:80px;
+}
+
+.socials .social-logo{
+  display:flex;
+  justify-content:space-between;
+  width:40%;
+}
+
+.socials .social-logo >div {
+  width:24%;
+}
+
+.fa-brands{
+  color: #fff;
+  width: 100%;
+}
+
+.socials h3{
+  font-size:30px;
+  color: #fff;
+  font-weight:100px;
+  margin: 30px 0px;
+}
+
+.address p{
+  margin-bottom:20px;
+  margin-top:8px;
+  font-size:20px;
+  color: #fff;
+}
+
+.address h5{
+  font-size:16px;
+  color: #fff;
+}
+
+
+
+
+/*services page styling
+  hero-service-section styling*/
+
+.hero-service-section{
+  padding:30px;
+  min-height:80vh;
+}
+
+.hero-service{
+  display:flex;
+  margin-top:30px;
+}
+
+.hero-service .service-image-section{
+  background: url("../image/car-repair.png");
+  background-size:cover;
+  background-position:left;
+  width:40%;
+  min-height:70vh;
+}
+
+.hero-service .service-text-section{
+  width:60%;
+  background-color: black;
+  padding:30px;
+}
+
+.hero-service .service-text-section h1{
+  color: #fff;
+  font-size:58px;
+  margin-bottom:10px;
+  padding-top: 50px;
+}
+
+.hero-service .service-text-section p{
+  color: #fff;
+  font-size:20px;
+  margin-bottom:40px;
+}
+
+/*diagnostics section styling*/
+.diagnostics-section{
+  background-color: gray;
+  padding: 30px;
+  min-height:100vh;
+}
+
+.diagostics-container{
+  width:90%;
+  margin: auto;
+}
+
+.diagnostics-content{
+  display:flex;
+  justify-content:space-between;
+  margin-top:50px;
+}
+
+.diagnostics-content .auto-diagnostics{
+  width: 49%;
+  background-color:#fff;
+  min-height:80vh;
+}
+
+.diagnostics-content .other-services{
+  width: 49%;
+}
+
+.auto-diagnostics .diagnostics-image{
+  width: 90%;
+  margin: auto;
+  min-height:40vh;
+}
+
+.auto-diagnostics .diagnostics-image img{
+  width:100%;
+  padding-top:10px;
+}
+
+.auto-diagnostics .diagnostics-text{
+  width:90%;
+  margin: auto;
+  min-height:60vh;
+}
+
+.auto-diagnostics .diagnostics-text h2{
+  font-size:42px;
+  padding-top:10px;
+  margin-bottom:20px;
+}
+
+.auto-diagnostics .diagnostics-text p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.navigation-box{
+  display:flex;
+  width:50%;
+}
+
+.navigation-box .diagnostics-navigation{
+  width:48%;
+  
+}
+
+.diagnostics-navigation a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+
+.navigation-box .navigation-arrow{
+  width:10%;
+  margin-left:10px
+}
+
+.other-services{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.other-services .services-box{
+  width:49%;
+  margin-bottom:5px;
+  background-color: #fff;
+}
+
+.other-services .services-box:hover{
+  background-color:orange;
+  color: #fff;
+}
+
+.other-services .services-box .service-image{
+  width:20%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.other-services .services-box .service-image img{
+  width: 100%;
+
+}
+
+.other-services .services-box h5{
+  font-size:18px;
+  text-align:center;
+  margin-top:10px;
+}
+
+/*service-process styling*/
+.service-process-section{
+  min-height:80vh;
+  padding: 30px;
+}
+
+.service-process{
+  display:flex;
+  justify-content:space-between;
+  margin-top: 30px;
+}
+
+.service-process .service-process-list{
+  width:49%;
+}
+
+.service-process-list ul{
+  list-style:none;
+}
+
+.service-process-list ul li{
+  margin-top: 30px;
+}
+
+.service-process .service-process-image-one{
+  width:24%;
+  background:url("../image/car1.png");
+  background-size:cover;
+  background-position: center;
+  min-height: 70vh;
+}
+
+.service-process .service-process-image-two{
+  width: 24%;
+  background:url("../image/car-service.png");
+  background-size:cover;
+  background-position: center;
+  min-height: 70vh 
+}
+
+.service-process-list h2{
+  font-size: 42px;
+}
+
+/*car-problems section styling*/
+.problem-section{
+  min-height:100vh;
+  padding: 50px;
+}
+
+.problem-content{
+  display: flex;
+  justify-content:space-between;
+}
+
+.problem-content .problem-image-one{
+  width:24%;
+  min-height:50vh;
+  background: url("../image/tyre.png");
+  background-size:cover;
+  background-position:center;
+}
+
+.problem-content .problem-image-two{
+  width: 24%;
+  background: url("../image/carhood.png");
+  background-size: cover;
+  background-position:center;
+}
+
+.problem-content .problem-text{
+  width:49%;
+}
+
+.problem-content .problem-text h2{
+  font-size:42px;
+  margin-bottom:30px;
+}
+
+.problem-content .problem-text p{
+  font-size:18px;
+  margin-bottom:30px;
+}
+
+/*footer syling*/
+.footer{
+  background-color: black;
+}
+.footer .right-section .navigation{
+   border-right:hidden;
+}
+
+.footer .logo img{
+  width:60%;
+  color: #fff;
+}
+
+.footer .navigation ul li a{
+  color:#fff;
+  font-size:12px;
+}
+
+
+
+/*mobile device responsiveness*/
+@media (max-width: 426px) {
+    .hero-content{
+      flex-direction:column-reverse;
+    }
+
+    .hero-content .text-section, .hero-content .image-section{
+      width: 100%;
+    }
+
+    .hero-content .image-section{
+      margin-top: 20px;
+    }
+
+    .quote-content{
+      flex-direction:column;
+    }
+
+    .quote-content .list-content{
+      width: 100%;
+    }
+
+    .quote-content .form-section{
+      width: 100%;
+    }
+
+    .quote-content .list-content h2{
+      font-size: 40px;
+      text-align: center;
+    }
+
+    #navigate{
+      margin-left: 100px;
+    }
+
+    .quote-content .form-section h2{
+      font-size: 40px;
+    }
+
+    .process-section{
+      flex-direction:column;
+    }
+
+    .process-section .process-content{
+      width: 100%;
+    }
+
+    .process-content h2{
+      font-size: 40px;
+    }
+
+    .process-content p{
+      margin-bottom: 30px;
+    }
+
+    .process-section .list-content{
+      width: 100%;
+      margin-top:30px;
+    }
+
+    .list-section .list-img{
+      width:5%
+    }
+
+    .process-section .list-writing{
+      margin-top: 5px;
+    }
+
+    .image-container{
+      flex-direction: column;
+    }
+
+    .image-container .offer-img{
+      width:70%;
+      margin:auto;
+    }
+
+    .offer-img h5{
+      font-size: 14px;
+    }
+
+    .metrics-container{
+      flex-direction: column;
+    }
+
+    .metrics-container .car-section{
+      width:100%
+    }
+
+    .metrics-container .contact-box{
+      width:100%
+    }
+
+    .metrics-container .other-car-section{
+      width:100%
+    }
+
+    .contact-box a{
+      margin-left: 400px;
+    }
+
+    .text h4{
+      font-size: 40px;
+    }
+
+    .brand-image{
+      flex-direction: column;
+    }
+
+    .brand-image >div{
+      display: flex;
+      justify-content:center;
+      width:100%
+    }
+
+    .brand-image img{
+      width:40%
+    }
+
+    .feedback h2{
+      font-size: 40px;
+    }
+
+    .feedback-box{
+      flex-direction: column;
+    }
+
+    .response{
+      width:100%
+    }
+
+    .line-box{
+      margin-left: 300px;
+    }
+
+    .question-section h2{
+      font-size: 40px;
+    }
 }
