@@ -1003,6 +1003,41 @@ div .fa-solid{
 
 /*mobile device responsiveness*/
 @media (max-width: 426px) {
+
+    .logo img{
+      width: 20%;
+    }
+
+    .navigation-section{
+      flex-direction: column;
+    }
+
+    .right-section{
+      flex-direction: column;
+      display: none;
+    }
+
+    .navigation{
+      border-right: hidden;
+      width: 100%;
+    }
+
+    .right-section ul{
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 20px;
+    }
+
+    .right-section ul li{
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+
+    .assistance-section{
+      justify-content:flex-start;
+      padding-left: 0px;
+      width: 100%;
+    }
     .hero-content{
       flex-direction:column-reverse;
     }
@@ -1013,6 +1048,14 @@ div .fa-solid{
 
     .hero-content .image-section{
       margin-top: 20px;
+    }
+
+    .rating{
+      margin-left: 200px;
+    }
+
+    .text-section h1{
+      font-size: 42px;
     }
 
     .quote-content{
@@ -1028,16 +1071,32 @@ div .fa-solid{
     }
 
     .quote-content .list-content h2{
-      font-size: 40px;
+      font-size: 35px;
       text-align: center;
     }
 
+    .list-img img{
+      width: 100%;
+    }
+
+    .list-writing h4{
+      font-size: 16px;
+    }
+
+    .list-writing p{
+      font-size: 14px;
+    }
+
     #navigate{
-      margin-left: 100px;
+      margin-left: 20px;
+    }
+
+    #navigate a{
+      font-size: 14px;
     }
 
     .quote-content .form-section h2{
-      font-size: 40px;
+      font-size: 25px;
     }
 
     .process-section{
@@ -1049,11 +1108,11 @@ div .fa-solid{
     }
 
     .process-content h2{
-      font-size: 40px;
+      font-size: 35px;
     }
 
     .process-content p{
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     .process-section .list-content{
@@ -1061,12 +1120,16 @@ div .fa-solid{
       margin-top:30px;
     }
 
+    .process-section .list-writing h4{
+      margin-top:5px
+    }
+
     .list-section .list-img{
-      width:5%
+      width:10%
     }
 
     .process-section .list-writing{
-      margin-top: 5px;
+      margin-top: 0px;
     }
 
     .image-container{
@@ -1076,10 +1139,27 @@ div .fa-solid{
     .image-container .offer-img{
       width:70%;
       margin:auto;
+      margin-bottom: 10px;
     }
 
     .offer-img h5{
       font-size: 14px;
+    }
+
+    .offer-link{
+      width:80%
+    }
+
+    .offer-link a{
+      font-size: 10px;
+    }
+
+    .arrow{
+      width:10%
+    }
+
+    .arrow img{
+      width: 100%;
     }
 
     .metrics-container{
@@ -1098,12 +1178,26 @@ div .fa-solid{
       width:100%
     }
 
+    .metrics h3{
+      font-size: 20px;
+    }
+
+    .metrics p{
+      font-size: 12px;
+    }
+
     .contact-box a{
-      margin-left: 400px;
+      margin-left: 130px;
+      font-size: 12px;
+      padding: 10px 20px;
+    }
+
+    .contact-box h3{
+      font-size: 20px;
     }
 
     .text h4{
-      font-size: 40px;
+      font-size: 30px;
     }
 
     .brand-image{
@@ -1113,7 +1207,8 @@ div .fa-solid{
     .brand-image >div{
       display: flex;
       justify-content:center;
-      width:100%
+      width:100%;
+      margin-bottom:5px
     }
 
     .brand-image img{
@@ -1121,7 +1216,7 @@ div .fa-solid{
     }
 
     .feedback h2{
-      font-size: 40px;
+      font-size: 30px;
     }
 
     .feedback-box{
@@ -1129,14 +1224,172 @@ div .fa-solid{
     }
 
     .response{
-      width:100%
+      width:100%;
+      margin-bottom:10px
+    }
+
+    .response p{
+      font-size: 14px;
+      margin-top: 8px;
     }
 
     .line-box{
-      margin-left: 300px;
+      margin-left: 120px;
+    }
+
+    .arrow-box{
+      margin-right: 30px;
+    }
+
+    #white{
+      margin-right: 30px;
+    }
+
+    #black{
+      margin-left: 10px;
+    }
+
+    .question-section h2{
+      font-size: 35px;
+    }
+
+    .questions h5{
+      font-size: 16px;
+    }
+
+    .questions p{
+      font-size: 12px;
+    }
+
+    .questions .sign{
+      width:10%
+    }
+
+    .text h2{
+      font-size: 20px;
+    }
+
+    .text h5{
+      font-size:16px;
+    }
+
+    .socials h3{
+      font-size: 25px;
+    }
+
+    .adress p{
+      font-size: 16px;
+    }
+
+    .footer .navigation-section{
+      flex-direction: row;
+    }
+
+    .footer .logo{
+      width:25%
+    }
+
+    .footer .logo img{
+      width:80%
+    }
+
+    .footer .right-section{
+      display: flex;
+      width:70%
+    }
+
+    .footer .right-section ul{
+      flex-direction: row;
+      padding-top: 0px;
+    }
+
+    .footer .right-section ul li{
+      margin-right: 20px;
+    }
+
+}
+
+/* tablet view responsiveness*/
+
+  @media (max-width:769px){
+    .container{
+      width:90%
+    }
+
+    .rating{
+      margin-left: 200px;
+    }
+
+    .text-section h1{
+      font-size: 54px;
+    }
+
+    .list-content h2{
+      font-size: 40px;
+    }
+
+    .list-writing h4{
+      font-size: 20px;
+    }
+
+    .list-writing p{
+      font-size: 18px;
+    }
+
+    #navigate{
+      margin-left: 42px;
+    }
+
+    .form-section h2{
+      font-size: 30px;
+    }
+
+    .process-content h2{
+      font-size: 48px;
+    }
+
+    .process-content p{
+      font-size: 24px;
+    }
+
+    .process-section .list-writing h4{
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .process-section .list-writing p{
+      font-size: 16px;
+    }
+
+    .offer-section .text h2{
+      font-size: 30px;
+    }
+
+    .contact-box h3{
+      font-size: 20px;
+    }
+
+    .metrics h3{
+      font-size: 25px;
+    }
+
+    .feedback h2{
+      font-size: 40px;
+    }
+
+    .line-box{
+      margin-left: 280px;
     }
 
     .question-section h2{
       font-size: 40px;
     }
-}
+
+    .questions h5{
+      font-size: 18px;
+    }
+
+    .questions padding {
+      font-size: 16px;
+    }
+}  
