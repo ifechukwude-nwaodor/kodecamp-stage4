@@ -1000,6 +1000,97 @@ div .fa-solid{
 }
 
 
+/* tablet view responsiveness*/
+
+@media (max-width:769px){
+  .container{
+    width:90%
+  }
+
+  .rating{
+    margin-left: 200px;
+    width:45%
+  }
+
+  .quick-service{
+    width:45%
+  }
+
+  .text-section h1{
+    font-size: 54px;
+  }
+
+  .list-content h2{
+    font-size: 40px;
+  }
+
+  .list-writing h4{
+    font-size: 20px;
+  }
+
+  .list-writing p{
+    font-size: 18px;
+  }
+
+  #navigate{
+    margin-left: 42px;
+  }
+
+  .form-section h2{
+    font-size: 30px;
+  }
+
+  .process-content h2{
+    font-size: 48px;
+  }
+
+  .process-content p{
+    font-size: 24px;
+  }
+
+  .process-section .list-writing h4{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .process-section .list-writing p{
+    font-size: 16px;
+  }
+
+  .offer-section .text h2{
+    font-size: 30px;
+  }
+
+  .contact-box h3{
+    font-size: 20px;
+  }
+
+  .metrics h3{
+    font-size: 25px;
+  }
+
+  .feedback h2{
+    font-size: 40px;
+  }
+
+  .line-box{
+    margin-left: 280px;
+  }
+
+  .question-section h2{
+    font-size: 40px;
+  }
+
+  .questions h5{
+    font-size: 18px;
+  }
+
+  .questions padding {
+    font-size: 16px;
+  }
+} 
+
+
 
 /*mobile device responsiveness*/
 @media (max-width: 426px) {
@@ -1052,6 +1143,7 @@ div .fa-solid{
 
     .rating{
       margin-left: 200px;
+      width:45%
     }
 
     .text-section h1{
@@ -1313,87 +1405,4 @@ div .fa-solid{
 
 }
 
-/* tablet view responsiveness*/
-
-  @media (max-width:769px){
-    .container{
-      width:90%
-    }
-
-    .rating{
-      margin-left: 200px;
-    }
-
-    .text-section h1{
-      font-size: 54px;
-    }
-
-    .list-content h2{
-      font-size: 40px;
-    }
-
-    .list-writing h4{
-      font-size: 20px;
-    }
-
-    .list-writing p{
-      font-size: 18px;
-    }
-
-    #navigate{
-      margin-left: 42px;
-    }
-
-    .form-section h2{
-      font-size: 30px;
-    }
-
-    .process-content h2{
-      font-size: 48px;
-    }
-
-    .process-content p{
-      font-size: 24px;
-    }
-
-    .process-section .list-writing h4{
-      font-size: 18px;
-      margin-top: 10px;
-    }
-
-    .process-section .list-writing p{
-      font-size: 16px;
-    }
-
-    .offer-section .text h2{
-      font-size: 30px;
-    }
-
-    .contact-box h3{
-      font-size: 20px;
-    }
-
-    .metrics h3{
-      font-size: 25px;
-    }
-
-    .feedback h2{
-      font-size: 40px;
-    }
-
-    .line-box{
-      margin-left: 280px;
-    }
-
-    .question-section h2{
-      font-size: 40px;
-    }
-
-    .questions h5{
-      font-size: 18px;
-    }
-
-    .questions padding {
-      font-size: 16px;
-    }
-}  
+  
