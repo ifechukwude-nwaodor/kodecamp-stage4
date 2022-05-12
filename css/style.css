@@ -1099,6 +1099,10 @@ div .fa-solid{
       width: 20%;
     }
 
+    body{
+      overflow-x: hidden;
+    }
+
     .navigation-section{
       flex-direction: column;
     }
@@ -1142,7 +1146,7 @@ div .fa-solid{
     }
 
     .rating{
-      margin-left: 200px;
+      margin-left: 150px;
       width:45%
     }
 
@@ -1259,11 +1263,13 @@ div .fa-solid{
     }
 
     .metrics-container .car-section{
-      width:100%
+      width:100%;
+      background-position: center;
     }
 
     .metrics-container .contact-box{
-      width:100%
+      width:100%;
+      background-position: center;
     }
 
     .metrics-container .other-car-section{
